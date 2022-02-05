@@ -1,8 +1,8 @@
 FROM ubuntu
 
-RUN sudo apt update
 RUN apt-get update
 RUN apt-get install sudo
+RUN sudo apt update
 RUN sudo apt-get update
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
