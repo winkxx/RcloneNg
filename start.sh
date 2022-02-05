@@ -1,5 +1,6 @@
 #!/bin/bash
 #!！
+#！
 mkdir /root/.config/
 mkdir /root/.config/rclone
 touch /root/.config/rclone/rclone.conf
