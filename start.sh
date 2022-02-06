@@ -7,7 +7,7 @@ touch /root/.config/rclone/rclone.conf
 echo "$conf" >>/root/.config/rclone/rclone.conf
 nginx -c /etc/nginx/nginx.conf
 nginx -s reload
-rclone rcd --rc-user=xxr --rc-pass=991211 --rc-allow-origin="http://localhost:4200"
+rclone rcd --rc-user=xxr --rc-pass=991211 --rc-allow-origin="https://elonh.github.io"
 git clone https://github.com/ElonH/RcloneNg.git
 cd RcloneNg
 npm install # NodeJs version >= 10
