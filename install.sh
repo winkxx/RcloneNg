@@ -4,11 +4,12 @@
 #cd usr/bin
 #sudo ln -s /usr/local/node/bin/node node
 #sudo ln -s /usr/local/node/bin/npm npm
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs
-cd ~/
-bash <(curl -sL install.emengweb.com/fclone.sh)
-mv /usr/bin/fclone /usr/bin/rclone
-chmod 777 /usr/bin/rclone
+#curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+#sudo apt-get install -y nodejs
+#cd ~/
+#bash <(curl -sL install.emengweb.com/fclone.sh)
+#mv /usr/bin/fclone /usr/bin/rclone
+#chmod 777 /usr/bin/rclone
+curl https://rclone.org/install.sh | sudo bash
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
 #rclone rcd --rc-user=xxr --rc-pass=991211 --rc-allow-origin="http://localhost:4200"
